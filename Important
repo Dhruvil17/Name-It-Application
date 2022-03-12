@@ -1,0 +1,30 @@
+Building an app is not only about opening the text editor/IDE and starting to code
+
+The process includes 
+
+💥 Ideating,
+💥 Thinking, 
+💥 Sketching, 
+💥 Making Wire frames and prototypes,
+💥 Finalizing the designs, 
+💥 Thinking about the app architecture, 
+💥 Finalizing the flow, 
+💥 Making sequence and flow diagrams, 
+💥 Deciding the methods/algorithms to implement
+💥 Setting up the dev environment
+
+Always create a Component Architecture Diagram whenever making any React Project or Application
+
+State - State is a piece of data that you might need to save that might change in future.
+
+Props - Prop is a sort of data that we can transfer, transport or communicate from our parent component to our child component.
+
+Old way of declaring State
+constructor() 
+{
+    super();
+
+    this.state = {
+        headerText: 'Name It Here',
+    };
+}
