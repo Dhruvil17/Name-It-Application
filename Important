@@ -28,3 +28,9 @@ constructor()
         headerText: 'Name It Here',
     };
 }
+
+# React Hooks
+1. State => useState Hook
+2. Lifecycle methods => useEffect Hook
+
+React Hooks basically helps us to use the benefit that Class based components provide us In React
