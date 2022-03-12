@@ -8,7 +8,7 @@ const name = require('@rstacruz/startup-name-generator');
 
 const App = () => {
     const [headerText, setHeaderText] = useState('Name It!');
-    const [headerExpanded, setHeaderExpanded] = useState(false);
+    const [headerExpanded, setHeaderExpanded] = useState(true);
     const [suggestedNames, setSuggestedNames] = useState([]);
 
     const handleInputChange = (inputText) => {
